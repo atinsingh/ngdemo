@@ -127,5 +127,8 @@
       }
     }
   },
-  "defaultProject": "ngdemo1"
+  "defaultProject": "ngdemo1",
+  "cli": {
+    "analytics": false
+  }
 }
