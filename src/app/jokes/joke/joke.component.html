@@ -1,2 +1,9 @@
-<div class="text-black-50">Jokes</div>
-<app-joke-item></app-joke-item>
+
+<div  class="card" style="width: 18rem;">
+    <img [src]="data.picUrl" class="card-img-top" alt="...">
+    <div class="card-body">
+      <h5 class="card-title"> {{ data.author }}</h5>
+      <p class="card-text">{{ data.joke }}</p>
+      <a (click)="onBtnClick()" href="#" class="btn btn-primary">{{data.btnText}}</a>
+    </div>
+</div>
